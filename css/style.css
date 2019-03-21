@@ -1,11 +1,43 @@
-.profile img {
-  animation: img-spin infinite 5s linear;
+.profile #profile {
+  animation: img-spin infinite 10s linear;
   pointer-events: none;
 }
 
 @keyframes img-spin{
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
+}
+
+.profile #facebook {
+  animation: fb-spin infinite 2s linear;
+  pointer-events: none;
+}
+
+@keyframes fb-spin{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(20deg);}
+}
+
+
+.profile #twitter {
+  animation: tw-spin infinite 1s linear;
+  pointer-events: none;
+}
+
+@keyframes tw-spin{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+
+.profile #instagram {
+  animation: ig-spin infinite 3s linear;
+  pointer-events: none;
+}
+
+@keyframes ig-spin{
+  from {transform: rotate(360deg);}
+  to {transform: rotate(0deg);}
 }
 
 
