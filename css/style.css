@@ -262,12 +262,14 @@ padding: 15px;
 
 
 .expenses h2{
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 
 tbody {
+	color: white;
  display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
