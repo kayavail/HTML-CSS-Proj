@@ -174,15 +174,16 @@ padding: 15px;
 
 
 .portfolio img {
-margin-left: -5px;
-
-width: 450; height: 350px;
+	margin-left: -5px;
+	width: 33%; 
+/* 	height: 350px;
+	width:450px; */
 }
 
 .portfolio h2{
-text-transform: uppercase;
-text-align: center;
-margin-top: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 70px;
 }
 
 .contact {
