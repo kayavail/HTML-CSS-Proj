@@ -197,12 +197,12 @@ margin-top: 70px;
 
 .contact .contact-form{
 	float: right;
-	overflow: hidden;
+/* 	overflow: hidden; */
 
 }
 
 .contact-form, .map{
-	width: 47%;
+	width: 50%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: left;
