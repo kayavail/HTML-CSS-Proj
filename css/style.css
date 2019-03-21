@@ -93,12 +93,13 @@ padding: 15px;
 }
 
 .experience .google {
-
+  	margin-left: 7.5px;
 	float: left;
 }
 
 .experience .alabian{
 	float: right;
+	margin-right: 7.5px;
 }
 
 
