@@ -1,0 +1,287 @@
+.profile img {
+  animation: img-spin infinite 5s linear;
+  pointer-events: none;
+}
+
+@keyframes img-spin{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+
+
+.main-menu {
+padding: 15px;
+}
+.main-menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+	color: green;
+}
+
+.main-menu a:hover{
+	color: yellow;
+	background-color: green;
+	border-radius: 19%;
+}
+
+.bg img {
+	width: 100%;
+	border-radius: 1%;
+}
+
+.profile {
+	text-align: center;
+	margin-top: -9%; 
+}
+
+.profile img {
+	border-radius: 50%;
+}
+
+.profile p{
+	text-align: center;
+}
+
+.profile h2 {
+	text-transform: uppercase;
+}
+
+.profile strong {
+	color: orange;
+	text-transform: capitalize;
+}
+
+.about {
+	background-image: url(../images/section-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.about h2 { 
+	text-transform: uppercase; 
+}
+
+.about-content {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 65%;
+	margin: auto;
+	color: white
+}
+
+.about-content span {
+	color: orange;
+}
+
+.experience {
+	width: 100%;
+	background-color: lightgrey;
+	margin-top: -40px;
+	overflow: hidden;
+
+}
+.experience h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.experience .google {
+
+	float: left;
+}
+
+.experience .alabian{
+	float: right;
+}
+
+
+.experience .google-img, .alabian-img {
+	float: left;
+	width: 20%;
+}
+
+
+
+.alabian, .google {
+    width: 47%;
+    background-color: white;
+    padding: 9px;
+    border-radius: 15px;
+    margin-top: -10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+
+.alabian-content h3, .alabian p, .alabian ul, .google-content h3, .google-content p, .google-content ul {
+	float: right;
+	width: 80%;
+}
+
+.experience img {
+width: 70%;
+padding: 15px;
+}
+
+.download {
+	text-align: center;
+	background-image: url(../images/section-bg.jpg);
+	background-size: 100%;
+	padding: 50px;
+}
+
+.download p {
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: -16px;
+    color: white;
+}
+
+
+.download-content {
+    margin: 5px;
+    padding 50px: ;
+    text-shadow: 0px 0px 8px #887676;
+
+}
+
+.download button {
+    text-transform: capitalize;
+    color: white;
+    background-color: #17c71e;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 0px solid orange;
+}
+
+.portfolio {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+
+.portfolio img {
+margin-left: -5px;
+
+width: 450; height: 350px;
+}
+
+.portfolio h2{
+text-transform: uppercase;
+text-align: center;
+margin-top: 70px;
+}
+
+.contact {
+	text-align: center;
+	overflow: hidden;
+}
+
+.contact .map{
+	float: left;
+}
+
+.contact .contact-form{
+	float: right;
+
+}
+
+.contact-form, .map{
+	width: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.contact select, input[type="text"],[type="Email"]{
+	    width: 88%;
+    border: #abfd3e solid;
+    height: 30px;
+    border-radius: 5%;
+}
+
+
+.contact label{
+	float: left;
+	text-transform:;
+	padding-left: 2px;
+	padding-right: 5px;
+}
+
+.contact textarea {
+	resize: none;
+	width: 88%;
+	height: 120px;
+	border: solid greenyellow;
+}
+
+.expenses {
+	text-align: center;
+	background-image: url(../images/section-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 70px;
+}
+
+.expenses .expenses-content table{
+	width: 800px;
+	margin: auto;
+	height: 350px;
+	border: none;
+
+
+}
+
+.contact h2{
+	text-align: center;
+	text-transform: uppercase;
+		padding: 50px;
+}
+
+
+.expenses h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+tbody {
+ display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    text-transform: Uppercase;
+
+}
+
+input[type="radio"]{
+	margin: auto;
+}
+
+input [type="checkbox"]{
+	padding: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
