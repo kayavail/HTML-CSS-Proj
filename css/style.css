@@ -123,6 +123,7 @@ padding: 15px;
 	overflow: hidden;
 
 }
+
 .experience h2 {
 	text-align: center;
 	text-transform: uppercase;
@@ -133,6 +134,20 @@ padding: 15px;
 .experience .google {
   	margin-left: 7.5px;
 	float: left;
+}
+
+.experience .google:hover {
+  	margin-left: 7.5px;
+	float: left;
+	width:104%;
+	height:104%;
+}
+
+.experience .alabian:hover {
+  	margin-left: 7.5px;
+	float: right;
+	width:104%;
+	height:104%;
 }
 
 .experience .alabian{
