@@ -72,6 +72,12 @@ padding: 15px;
 	border-radius: 50%;
 }
 
+.profile img:hover {
+	width:110%;
+	height:110%;
+	border-radius:50%;
+}
+
 .profile p{
 	text-align: center;
 }
