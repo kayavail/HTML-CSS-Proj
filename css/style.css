@@ -140,17 +140,15 @@
 }
 
 .experience .google:hover {
-  	margin-left: 7.5px;
-	float: left;
-	width:104%;
-	height:104%;
+  
+	width:102%;
+	height:102%;
 }
 
 .experience .alabian:hover {
-  	margin-left: 7.5px;
-	float: right;
-	width:104%;
-	height:104%;
+ 
+	width:102%;
+	height:102%;
 }
 
 .experience .alabian{
