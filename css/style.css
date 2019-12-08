@@ -271,7 +271,7 @@ padding: 15px;
 	text-align: left;
 }
 
-.contact select, input[type="text"],[type="Email"]{
+.contact select, input[type="text"],[type="Email"], [list="browsers"]{
 	    width: 88%;
     border: #abfd3e solid;
     height: 30px;
