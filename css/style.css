@@ -44,9 +44,13 @@
 
 .main-menu {
 	padding: 15px;
-	position:sticky;
+	position: sticky;
 	top: 0;
-	background-color:lightgrey;
+	z-index: 1;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background-color: white;
 }
 .main-menu a {
 	text-decoration: none;
