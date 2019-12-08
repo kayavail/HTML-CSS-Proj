@@ -229,6 +229,7 @@ padding: 15px;
 /* 	height: 350px;
 	width:450px; */
   	border-radius:2%;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23);
 }
 
 .portfolio img:hover {	
@@ -236,6 +237,7 @@ padding: 15px;
 	width:430px;
   	border-radius:2%;
   	transition:0.8s;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23);
 }
 }
 
