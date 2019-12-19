@@ -40,7 +40,19 @@
   to {transform: rotate(0deg);}
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
+	.profile-details:hover {
+	width: 550px;
+	transition: width 3s;
+	color: white;
+	background-color: rgb(212, 212, 212);
+	-webkit-transition: width 3s;
+	transform: rotate(5deg);
+
+ }
 
 .main-menu {
 	padding: 15px;
@@ -222,24 +234,23 @@ padding: 15px;
 }
 
 
-
 .portfolio img {
 	margin-left: 2px;
-	width: 33%;
+	width: 32%;
+	box-shadow: 0 10px 6px rgba(0, 0, 0, 0.73);
 /* 	height: 350px;
 	width:450px; */
-  	border-radius:2%;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23);
+	border-radius: 2%;
 }
 
 .portfolio img:hover {	
-	height: 350px;
-	width:430px;
+	height: 31%;
+	width:31%;
   	border-radius:2%;
-  	transition:0.8s;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23);
+	  transition:0.8s;
+	  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
-}
+
 
 .portfolio h2{
 	text-transform: uppercase;
