@@ -42,6 +42,7 @@
 
 html{
 	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
 }
 
 	.profile-details:hover {
